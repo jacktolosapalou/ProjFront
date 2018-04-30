@@ -1,0 +1,73 @@
+#head {
+	background-color: #ffdd8b;
+	font-family: 'Skranji', cursive;
+	font-size: 40px;
+	margin: 0;
+	text-decoration: underline;
+}
+#foot {
+	background-color: #ffdd8b;
+	padding-bottom: 60px;
+}
+#welcome {
+	background-color: #ffdd8b;
+	font-family: 'Skranji', cursive;
+	margin-top: 0;
+}
+
+#homeBar {
+	font-family: arial, sans-serif;
+	font-size: 20px;
+	border-collapse: collapse;
+	border: 3.5px solid black;
+	width: 100%;
+	text-align: left;
+	background-color: white;
+}
+
+.rowbar {
+	width: 33%;
+	border-right: 3.5px solid black;
+	text-align: center;
+
+}
+
+.rowbar:hover {
+	opacity: 0.45;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#Homepage {
+	font-size: 25px;
+}
+
+h2 {
+	padding-top: 5px;
+}
+#Trending {
+	width: 100%;
+}
+
+.one {
+	font-family: arial, sans-serif;
+	font-size: 20px;
+}
+
+.two {
+	width: 33%;
+}
+
+img {
+	max-height: 500px;
+	max-width: 275px;
+}
+
+div {
+	max-height: 500px;
+	max-width: 350px;
+}
+
+img:hover {
+	cursor: pointer;
+}

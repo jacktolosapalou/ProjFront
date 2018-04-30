@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Likes</title>
+	<link href="https://fonts.googleapis.com/css?family=Skranji:700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="about css.css">
+</head>
+<body>
+
+<p id="head">ML</p>
+	<p id="welcome">Welcome, Guest!</p>
+
+	<table id="homeBar">
+		<tr>
+			<td id="Homepage" class="rowbar">Homepage</td>
+			<td id="About" class="rowbar"><strong>About</strong></td>
+			<td id="Login" class="rowbar">Register</td>
+
+		</tr>
+	</table>
+<script>
+	
+document.getElementById("Homepage").onclick = function() {openHome()};
+function openHome() {
+	window.location = "Home Page.html"
+}
+
+document.getElementById("About").onclick = function() {openAbout()};
+function openAbout() {
+	window.location = "About.html"
+}
+
+document.getElementById("Login").onclick = function() {openLogin()};
+function openLogin() {
+	window.location = "Login.html"
+}
+
+</script>
+
+<h2>What is MyLikes?</h2>
+
+<div id="hwoh">
+
+<p>MyLikes is a site where you can login and save a list of things you like! This can range from movies, to games, to sports, and even food!
+This is actually just my CS 179.2 final project so I'll leave some buffer text here. Hooray.
+</p>
+
+<p>This site is meant to show what we learned throughout the semester. It should contain
+some HTML, some CSS, some JavaScript, and it should use Django for the backend.</p>
+
+<p>Since I'm supposed to show that I know what I'm doing here, even if I really don't, let's take a look at the animation below these paragraphs and see if I did it right.</p>
+
+</div>
+
+<img id="car" src="car.png">
+
+<p id="foot"></p>
+
+</body>
+</html>

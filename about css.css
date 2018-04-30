@@ -1,0 +1,69 @@
+#head {
+	background-color: #ffdd8b;
+	font-family: 'Skranji', cursive;
+	font-size: 40px;
+	margin: 0;
+	text-decoration: underline;
+}
+#welcome {
+	background-color: #ffdd8b;
+	font-family: 'Skranji', cursive;
+	margin-top: 0;
+}
+
+#homeBar {
+	font-family: arial, sans-serif;
+	font-size: 20px;
+	border-collapse: collapse;
+	border: 3.5px solid black;
+	width: 100%;
+	text-align: left;
+	background-color: white;
+}
+
+.rowbar {
+	width: 33%;
+	border-right: 3.5px solid black;
+	text-align: center;
+
+}
+
+.rowbar:hover {
+	opacity: 0.45;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#About {
+	font-size: 25px;
+}
+
+#hwoh {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 18px;
+	border: 2px solid black;
+}
+
+#car {
+	max-height: 250px;
+	max-width: 250px;
+	animation-name: move;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-delay: 0.5s;
+	padding-top: 35px;
+	background-color: white;
+	align-content: center;
+}
+
+
+@keyframes move {
+	0%{ transform: translateX(0vw) }
+	100%{transform: translateX(80vw)}
+
+}
+
+#foot {
+	background-color: #ffdd8b;
+	padding-bottom: 60px;
+}

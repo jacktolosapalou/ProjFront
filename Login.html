@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Likes</title>
+	<link href="https://fonts.googleapis.com/css?family=Skranji:700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="login css.css">
+</head>
+<body>
+<p id="head">ML</p>
+	<p id="welcome">Welcome, Guest!</p>
+
+	<table id="homeBar">
+		<tr>
+			<td id="Homepage" class="rowbar">Homepage</td>
+			<td id="About" class="rowbar">About</td>
+			<td id="Login" class="rowbar"><strong>Register</strong></td>
+
+		</tr>
+	</table>
+<script>
+	
+document.getElementById("Homepage").onclick = function() {openHome()};
+function openHome() {
+	window.location = "Home Page.html"
+}
+
+document.getElementById("About").onclick = function() {openAbout()};
+function openAbout() {
+	window.location = "About.html"
+}
+
+document.getElementById("Login").onclick = function() {openLogin()};
+function openLogin() {
+	window.location = "Login.html"
+}
+
+
+
+</script>
+
+
+<form id="hi">
+	<label for="firstName">First Name: </label>
+	<input id="firstName" type="text" name="fn" placeholder="First Name" required>
+	<label for="lastName">Last Name: </label>
+	<input id="lastName" type="text" name="ln" placeholder="Last Name" required> <br/>
+
+
+	<label for="male">Male </label>
+	<input id="male" type="radio" name="Gender" required value="Male">
+	<label for="female">Female </label>
+	<input type="radio" name="Gender" id="female" value="Female">
+	<label for="other">Other </label>
+	<input type="radio" name="Gender" id="other" value="Other"> <br/>
+
+<label for="Email">Email: </label>
+<input type="email" name="email" id="Email" placeholder="example@hwoh.com" required> <br/>
+<label for="pword">Password:</label>
+<input type="password" name="pass" id="pword" placeholder="Password" pattern=".(5,10)" size="10" required title="Must contain 5-10 characters"> <br/>
+
+<p>I agree to the terms and conditions   
+<input type="checkbox" name="yes" required>
+</p>
+
+<input type="submit">
+
+</form>
+<p id="foot"></p>
+
+</body>
+</html>
